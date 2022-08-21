@@ -34,22 +34,22 @@ main(){
         
         for(int i=0;i<n;i++){
             
-            int m=r[i]*2>1000000?1000000:r[i]*2;
+            int rj=r[i]*2>1000000?1000000:r[i]*2;
             
             lm:
-            if(o[m]<0)m=-o[m]-1;
-            else if(o[m]>0);
-            else m=0;
+            if(o[rj]<0)rj=-o[rj]-1;
+            else if(o[rj]>0);
+            else rj=0;
             
-            if(o[m]==INT_MAX);
-            else if(o[m]-1==i){
+            if(o[rj]==INT_MAX);
+            else if(o[rj]-1==i){
               
-                m--;
+                rj--;
                 goto lm;
               
             }
             
-            printf(" %d",m==0?-1:m);
+            printf(" %d",rj==0?-1:rj);
             
         }
         
