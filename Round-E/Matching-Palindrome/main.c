@@ -20,9 +20,6 @@ int main(){
 				for(int qi=qn;qi<n/2+n%2;qi++)
 					if(p[qi%qn]!=p[qi])
 						goto cqn;
-				for(int qi=0;qi<qn/2;qi++)
-					if(p[qi]!=p[qn-1-qi])
-						goto cqn;
 				break;
 				cqn:continue;
 			}
