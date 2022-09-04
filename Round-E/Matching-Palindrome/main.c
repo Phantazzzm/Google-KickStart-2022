@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main(){
+main(){
 
 	char t;
 	scanf("%d",&t);
@@ -31,6 +31,4 @@ int main(){
 	
 	}
 	
-	return 0;
-
 }
