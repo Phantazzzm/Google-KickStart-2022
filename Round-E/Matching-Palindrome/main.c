@@ -17,7 +17,7 @@ main(){
 		int qn=0;
 		while(++qn<n)
 			if(n%qn==0){
-				for(int qi=qn;qi<n/2+n%2;qi++)
+				for(int qi=qn;qi<n;qi++)
 					if(p[qi%qn]!=p[qi])
 						goto cqn;
 				break;
